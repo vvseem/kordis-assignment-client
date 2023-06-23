@@ -22,6 +22,8 @@ const EditableInput = ({ table, column, row, getValue }) => {
       onBlur={onBlur}
       readOnly={disabled}
       disabled={disabled}
+      type="number"
+      step="any"
       style={{
         border: "none",
         borderRadius: 5,
